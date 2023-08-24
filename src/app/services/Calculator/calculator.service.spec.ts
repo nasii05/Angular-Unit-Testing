@@ -23,5 +23,3 @@ describe('CalculatorService',()=>{
     expect(mockLoggerService.log).toHaveBeenCalledTimes(1);
   });
 });
-
-console.log(CalculatorService)
