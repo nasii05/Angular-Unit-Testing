@@ -14,5 +14,6 @@ export class StrengthPipe implements PipeTransform {
       return value + ' (strongest)';
     }
   }
-
+  // testing is an example of isolated unit tests
+  // which means it is not dependent on any modules.
 }
